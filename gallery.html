@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+        <div class="gallery">
+            <img class="preview" src="https://via.placeholder.com/150/0000FF/FFFFFF?text=Blue" alt="Blue Image" onmouseover="upDate(this)" onmouseout="unDo()">
+            <img class="preview" src="https://via.placeholder.com/150/FF0000/FFFFFF?text=Red" alt="Red Image" onmouseover="upDate(this)" onmouseout="unDo()">
+            <img class="preview" src="https://via.placeholder.com/150/00FF00/FFFFFF?text=Green" alt="Green Image" onmouseover="upDate(this)" onmouseout="unDo()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
